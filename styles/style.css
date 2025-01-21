@@ -1,0 +1,140 @@
+/* Google Fonts */
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Removing  Default Margin and Padding*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Setting Custom Default Setting */
+#banner_section,
+#standard_curriculum_section,
+#our_stories_section,
+#footer_section{
+    margin: 0 auto;
+    max-width: 80vw;
+}
+/*................... Shared Styles..................... */
+/* Headings */
+.heading1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+}
+.heading1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+}
+.heading1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+}
+.heading1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+}
+.heading2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #000000;
+}
+.heading3{
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.heading4{
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
+.heading5{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.heading6{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #202020;
+}
+.heading7{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+}
+.heading8{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.heading9{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+}
+/* Paragraphs */
+.paragraph1{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: black;
+}
+.paragraph2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+.paragraph3{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #808080;
+}
+.paragraph4{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #666666;
+}
+/* Buttons */
+.button1{
+    color: white;
+    background-color: orange;
+    padding: 10px 60px;
+    border-radius: 12px;
+    border-style: none;
+}
+.button2{
+    color: white;
+    background-color: black;
+    padding: 10px 60px;
+    border-radius: 12px;
+    border-style: none;
+}
+.button3{
+    color: white;
+    background-color: #3CD8E8;
+    padding: 15px 19px;
+    border-radius: 47px;
+    border-style: none;
+}
+.button4{
+    color: white;
+    background-color: #95B226;
+    padding: 15px 19px;
+    border-radius: 47px;
+    border-style: none;
+}
+.button5{
+    color: white;
+    background-color: #5D58F0;
+    padding: 15px 19px;
+    border-radius: 47px;
+    border-style: none;
+}
+/* Colors */
