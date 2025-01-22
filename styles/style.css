@@ -11,6 +11,7 @@
     padding: 0;
 }
 /* Setting Custom Default Setting */
+#nav_section,
 #banner_section,
 #standard_curriculum_section,
 #our_stories_section,
@@ -118,23 +119,52 @@
 }
 .button3{
     color: white;
-    background-color: #3CD8E8;
-    padding: 15px 19px;
-    border-radius: 47px;
-    border-style: none;
-}
-.button4{
-    color: white;
-    background-color: #95B226;
-    padding: 15px 19px;
-    border-radius: 47px;
-    border-style: none;
-}
-.button5{
-    color: white;
-    background-color: #5D58F0;
     padding: 15px 19px;
     border-radius: 47px;
     border-style: none;
 }
 /* Colors */
+.color1{
+    color: orange;
+}
+.color2{
+    color: skyblue;
+}
+.color3{
+    color: #05D4DF;
+}
+.color4{
+    color: #5D58EF;
+}
+.color5{
+    color: #3CD8E8;
+}
+.color6{
+    color: #95B226;
+}
+.color7{
+    color: #5D58F0;
+}
+
+
+/* Nav Section */
+.nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nav_header{
+    display: flex;
+    align-items: center;
+}
+
+.unordered_list_container ul{
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+}
+.unordered_list_container ul li a{
+    text-decoration: none;
+}
