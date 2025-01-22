@@ -19,6 +19,7 @@
     margin: 0 auto;
     max-width: 80vw;
 }
+
 /*................... Shared Styles..................... */
 /* Headings */
 .heading1{
@@ -145,7 +146,10 @@
 .color7{
     color: #5D58F0;
 }
-
+/* hiding */
+.hide{
+    display: none;
+}
 
 /* Nav Section */
 .nav_container{
@@ -167,4 +171,42 @@
 }
 .unordered_list_container ul li a{
     text-decoration: none;
+}
+
+/* Banner Section */
+.banner_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+.banner_header h1, p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 576px){
+    /* Nav Section */
+    .nav_header > h3, .unordered_list_container, .nav_footer > button{
+        display: none;
+    }
+    .hide{
+        display: block;
+    }
+    .nav_header > img{
+        width: 46px;
+    }
+    .icon_setting{
+        font-size: 35px;
+    }
+
+    /* Banner Section */
+    .banner_container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner_image > img{
+        width: 90vw;
+    }
 }
